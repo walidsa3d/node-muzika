@@ -1,0 +1,42 @@
+{
+  "name": "node-muzika",
+  "version": "1.0.0",
+  "description": "Music finder and downloader",
+  "homepage": "https://github.com/walidsa3d/node-muzika",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "music",
+    "online",
+    "download",
+    "mp3"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/walidsa3d/node-muzika.git"
+   },
+  "bugs": {
+    "url": "https://github.com/walidsa3d/node-muzika/issues"
+    },
+  "bin": {
+      "node-footix": "bin/cli"
+     },
+  "engines": {
+      "node": ">= 0.8.0"
+     },
+
+  "author": "Walid Saad",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.0.4",
+    "chalk": "^1.1.1",
+    "cli-table2": "^0.1.9",
+    "commander": "^2.9.0",
+    "fs": "0.0.2",
+    "http": "0.0.0",
+    "pleer": "0.0.5",
+    "prompt": "^0.2.14"
+  }
+}
