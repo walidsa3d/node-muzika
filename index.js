@@ -4,7 +4,7 @@ var chalk = require('chalk');
 var prompt = require('prompt');
 var fs = require('fs');
 var http = require('http');
-var Table = require('cli-table2');
+var Table = require('cli-table3');
 var program = require('commander');
 Promise.promisifyAll(pleer);
 
